@@ -1,0 +1,65 @@
+/* ------------------------
+GOOGLE FONTS
+------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* ------------------------
+GLOBAL SETTINGS
+------------------------ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #f7f7f7;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* ------------------------
+SOCIAL MEDIA SECTION
+------------------------ */
+
+.social-media-icon{}
+.social-media-icon ul{
+    text-align: center;
+}
+.social-media-icon ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 7px;
+}
+.social-media-icon ul li i{
+    color: white;
+    font-size: 24px;
+    transition-duration: .5s;
+}
+
+.social-media-icon ul li:hover i{
+    transform: scale(1.4);
+}
